@@ -3,6 +3,10 @@ spring:
     url: jdbc:mysql://localhost:3306/ebanking?createDatabaseIfNotExist=true
     username: root
     password: Abhi@180902
+  data:
+    redis:
+      host: localhost
+      port: 6379
   jpa:
     hibernate:
       ddl-auto: update
